@@ -27,4 +27,4 @@ npm-debug.log*
 postgres-data/
 
 # Claude
-claude/
+.claude/
