@@ -105,17 +105,17 @@ npm start
 
 ```bash
 # Reconstruire les images
-docker-compose build
+docker compose build
 
 # Redémarrer un service spécifique
-docker-compose restart backend
+docker compose restart backend
 
 # Accéder au shell d'un conteneur
-docker-compose exec backend sh
-docker-compose exec postgres psql -U altelink_user -d altelink
+docker compose exec backend sh
+docker compose exec postgres psql -U altelink_user -d altelink
 
 # Voir les logs d'un service
-docker-compose logs -f backend
+docker compose logs -f backend
 ```
 
 ## Variables d'Environnement
