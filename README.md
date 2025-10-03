@@ -54,19 +54,19 @@ cp .env.example .env
 # Éditer .env avec vos valeurs
 
 # 2. Lancer tous les services (PostgreSQL, Backend, Frontend)
-docker-compose up -d
+docker compose up -d
 
 # 3. Vérifier l'état des conteneurs
-docker-compose ps
+docker compose ps
 
 # 4. Voir les logs en temps réel
-docker-compose logs -f
+docker compose logs -f
 
 # 5. Arrêter les services
-docker-compose down
+docker compose down
 
 # 6. Supprimer les volumes (données)
-docker-compose down -v
+docker compose down -v
 ```
 
 ### Sans Docker
